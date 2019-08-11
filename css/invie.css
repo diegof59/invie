@@ -1,0 +1,61 @@
+/*selector universal*/
+* {
+  margin: 10px;
+}
+
+/*selector de etiqueta*/
+body {
+  font-family: 'Allerta', sans-serif;
+  margin: 0;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  background: #fd324e;
+  color: white;
+  padding: 7px;
+}
+
+/*selectores de clase*/
+
+.header {
+
+}
+
+.logo {
+
+}
+
+.menu {
+  font-size: 24px;
+}
+
+.titulo {
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title-a {
+  font-size: 24px;
+}
+
+.title-b {
+  font-size: 50px;
+}
+
+.guitarras {
+  color: gray;
+}
+
+/*selector descendente*/
+.guitarras h2 {
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*selector de id*/
+#portada {
+  background-image: url('../images/background.png');
+  color: white;
+}
