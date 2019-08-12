@@ -1,12 +1,10 @@
 /*selector universal*/
 * {
-  margin: 10px;
 }
 
 /*selector de etiqueta*/
 body {
   font-family: 'Allerta', sans-serif;
-  margin: 0;
 }
 
 button {
@@ -17,12 +15,20 @@ button {
   padding: 7px;
 }
 
+/*selector de id*/
+#portada {
+  background-image: url('../images/background.png');
+  color: white;
+  padding: 20px;
+  margin: 0;
+}
+
+/*selector descendente*/
 .portada button {
-  margin: 30px 0 70px 15px;
+  margin: 15px 0 70px 15px;
 }
 
 /*selectores de clase*/
-
 .contenedor {
    width: 800px;
    margin: auto;
@@ -30,11 +36,13 @@ button {
 
 .logo {
   display: inline-block;
+  margin-top: 0;
 }
 
 .menu {
   font-size: 24px;
   display: inline-block;
+  float: right;
 }
 
 .menu li {
@@ -48,14 +56,15 @@ button {
   margin: 70px 0 0 15px;
 }
 
-.title-a {
+.subtitulo {
   font-size: 24px;
-  margin: 0px 0 15px 25px;
+  margin: 0px 0 15px 15px;
 }
 
-.title-b {
+.titulo-guitarra {
   font-size: 50px;
-  margin-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .guitarras {
@@ -63,38 +72,43 @@ button {
   margin-top: 20px;
 }
 
+.guitarras h2 {
+  margin: 20px 20px 20px 0;
+}
+
 .guitarra {
-  padding: 10px;
   margin: 10px;
-  overflow: hidden;
+  /*overflow: hidden; el sketch tiene overflow*/
   border: 1px solid gray;
+  position: relative;
 }
 
 .guitarra-info-a {
   margin-right: 300px;
+  padding: 10px;
 }
 
 .guitarra-info-b {
   margin-left: 300px;
+  padding: 10px;
 }
 
-.flotar-der {
-  float:right;
+.img-der {
+  /*float:right; reemplazado por position*/
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
 }
 
-.flotar-izq {
-  float:left;
+.img-izq {
+  /*float:left;*/
+  position: absolute;
+  bottom: -50px;
+  left: 0px;
 }
 
-/*selector descendente*/
 .guitarras h2 {
   font-size: 35px;
   font-family: 'Montserrat', sans-serif;
-}
-
-/*selector de id*/
-#portada {
-  background-image: url('../images/background.png');
-  color: white;
-  padding: 20px;
 }
