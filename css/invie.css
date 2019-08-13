@@ -5,6 +5,7 @@
 /*selector de etiqueta*/
 body {
   font-family: 'Allerta', sans-serif;
+  margin: 10px 0 10px 0;
 }
 
 button {
@@ -81,6 +82,7 @@ button {
   /*overflow: hidden; el sketch tiene overflow*/
   border: 1px solid gray;
   position: relative;
+  border-radius: 9px;
 }
 
 .guitarra-info-a {
@@ -111,4 +113,8 @@ button {
 .guitarras h2 {
   font-size: 35px;
   font-family: 'Montserrat', sans-serif;
+}
+
+.footer {
+  background: #273B47;
 }
