@@ -117,4 +117,31 @@ button {
 
 .footer {
   background: #273B47;
+  margin-top: 55px;
+  position: relative;
+}
+
+.contacto-info {
+  display: inline-block;
+}
+
+.contacto-info img {
+  display: block;
+  padding: 25px 0 15px 15px;
+}
+
+.contacto-info a {
+  display: inline-block;
+  text-decoration: none;
+  margin: 15px;
+  color: white;
+}
+
+.contacto-info strong {
+  display: block;
+}
+
+.contacto-info span {
+  display: block;
+  margin-top:10px;
 }
