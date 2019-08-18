@@ -8,7 +8,7 @@ body {
   margin: 10px 0 10px 0;
 }
 
-button {
+.boton {
   border-radius: 5px;
   border: none;
   background: #fd324e;
@@ -118,11 +118,17 @@ button {
 .footer {
   background: #273B47;
   margin-top: 55px;
-  position: relative;
+  font-size: 14px;
+}
+
+.footer .contenedor {
+  display: flex;
+  justify-content: space-between;
 }
 
 .contacto-info {
-  display: inline-block;
+  display: inline-flex;
+  flex-direction: column;
 }
 
 .contacto-info img {
@@ -144,4 +150,36 @@ button {
 .contacto-info span {
   display: block;
   margin-top:10px;
+}
+
+.contacto-form {
+  color: white;
+  width: 350px;
+}
+
+.contacto-form form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacto-form h2 {
+  margin: 30px 0 0 15px;
+}
+
+.contacto-fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+  border: none;
+}
+
+.contacto-fieldset input, textarea {
+  margin: 9px 0 9px 0;
+}
+
+.contacto-asunto {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
 }

@@ -29,7 +29,7 @@
       <div class="contenedor">
         <h1 class="titulo">Guitarras&nbsp;inviesibles</h1><!-- titulo -->
         <h3 class="subtitulo">¡S&eacute; la estrella de rock que siempre quisiste ser!</h3><!-- resumen -->
-        <button>Conoce m&aacute;s</button><!-- boton -->
+        <button class="boton">Conoce m&aacute;s</button><!-- boton -->
       </div>
     </section>
     <section id="guitarras" class="guitarras contenedor"> <!-- guitarras -->
@@ -73,28 +73,30 @@
         <div class="contacto-form">
           <h2>Contacto</h2>
           <form action="">
-            <fieldset>
+            <fieldset class="contacto-fieldset">
               <label>Nombre
                 <input type="text" name="nombre" />
               </label>
               <label>E-mail
                 <input type="email" name="email" />
               </label>
+              <div class="contacto-asunto">
+                <label>Cotizaci&oacute;n
+                  <input type="checkbox" name="asunto" value="cotizacion" />
+                </label>
+                <label>Comentarios
+                  <input type="checkbox" checked="checked" name="asunto" value="comentarios" />
+                </label>
+                <label>Reclamos
+                  <input type="checkbox" name="asunto" value="reclamos"/>
+                </label>
+              </div>
             </fieldset>
-            <fieldset>
-              <label>Cotizaci&oacute;n
-                <input type="checkbox" name="asunto" value="cotizacion" />
-              </label>
-              <label>Comentarios
-                <input type="checkbox" name="asunto" value="comentarios" />
-              </label>
-              <label>Reclamos
-                <input type="checkbox" name="asunto" value="reclamos"/>
-              </label>
+            <fieldset class="contacto-fieldset">
               <label>Mensaje
                 <textarea name="mensaje" cols="30" rows="5"></textarea>
               </label>
-              <input type="submit" value="Enviar">
+              <input class="boton" type="submit" value="Enviar" />
             </fieldset>
           </form>
         </div>
