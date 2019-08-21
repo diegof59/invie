@@ -4,6 +4,7 @@
     <title>Invie - Tus mejores guitarras</title>
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="css/invie.css"/>
+    <link rel="stylesheet" href="css/precios.css"/>
     <link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat:400,700&display=swap" rel="stylesheet"> 
   </head>
   <body>
@@ -17,7 +18,7 @@
             <a href="index.html">Home</a>
           </li>
           <li>
-            <a href="#guitarras">Guitarras</a>
+            <a href="index.html/#guitarras">Guitarras</a>
           </li>
           <li>
             <a href="precios.html">Precios</a>
@@ -25,48 +26,35 @@
         </ul>
       </nav>
     </header>
-    <section id="portada" class="portada"> <!-- portada -->
+    <section class="tabla">
       <div class="contenedor">
-        <h1 class="titulo">Guitarras&nbsp;inviesibles</h1><!-- titulo -->
-        <h3 class="subtitulo">¡S&eacute; la estrella de rock que siempre quisiste ser!</h3><!-- resumen -->
-        <button class="boton">Conoce m&aacute;s</button><!-- boton -->
+        <table>
+          <thead>
+            <tr>
+              <th>Modelo</th>
+              <th>Precio</th>
+              <th>Descripci&oacute;n</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ac&uacute;stica</td>
+              <td>$200.000</td>
+              <td>Guitarra justa para iniciar o para tocar junto a una fogata.</td>
+            </tr>
+            <tr>
+              <td>Cl&aacute;sica</td>
+              <td>$280.000</td>
+              <td>Guitarra estilo cl&aacute;sico, creada para un profesional.</td>
+            </tr>
+            <tr>
+              <td>El&eacute;ctrica</td>
+              <td>$400.000</td>
+              <td>Guitarra hecha para rockear.</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-    </section>
-    <section id="guitarras" class="guitarras contenedor"> <!-- guitarras -->
-      <h2>Nuestras guitarras</h2><!-- titulo -->
-      <article class="guitarra"> <!-- guitarra 1 -->
-        <img class="img-der" src="images/invie-acustica.png" alt="Guitarra Invie Acustica" width="300"/>
-        <div class="guitarra-info-a">
-          <h3 class="titulo-guitarra">Invie Ac&uacute;stica</h3>
-          <ol>
-            <li>Estilo vintage</li>
-            <li>Madera pura</li>
-            <li>Incluye estuche invisible de aluminio</li>
-          </ol>
-        </div>
-      </article>
-      <article class="guitarra"> <!-- guitarra 2 -->
-        <img class="img-izq" src="images/invie-classic.png" alt="Guitarra Invie Classic" width="300"/>
-        <div class="guitarra-info-b">
-          <h3 class="titulo-guitarra">Invie Cl&aacute;sica</h3>
-          <ol>
-            <li>Estilo vintage</li>
-            <li>Liviana</li>
-            <li>Inicia tu camino como Rockstar</li>
-          </ol>
-        </div>
-      </article>
-      <article class="guitarra"> <!-- guitarra 1 -->
-        <img class="img-der" src="images/invie-acustica.png" alt="Guitarra Invie Acustica" width="300"/>
-        <div class="guitarra-info-a">
-          <h3 class="titulo-guitarra">Invie El&eacute;ctrica</h3>
-          <ol>
-            <li>Estilo Telecaster</li>
-            <li>Cuerpo s&oacute;lido</li>
-            <li>Incluye amplificador invisible de 100W</li>
-          </ol>
-        </div>
-      </article>
     </section>
     <footer class="footer">
       <div class="contenedor">

@@ -154,7 +154,7 @@ body {
 
 .contacto-form {
   color: white;
-  width: 350px;
+  width: 500px;
 }
 
 .contacto-form form {
@@ -181,5 +181,12 @@ body {
 .contacto-asunto {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 10px;
+}
+
+.contacto-asunto input {
+  margin: 5px 5px 0 5px;
+}
+
+#enviarMensaje {
+  align-self: flex-end;
 }
