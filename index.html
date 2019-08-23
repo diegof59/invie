@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
-    <title>Invie - Tus mejores guitarras</title>
     <meta charset="utf-8"/>
+    <title>Invie - Tus mejores guitarras</title>
     <link rel="stylesheet" href="css/invie.css"/>
     <link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat:400,700&display=swap" rel="stylesheet"> 
   </head>
   <body>
-    <header id="header" class="header contenedor"> <!-- header -->
+    <section id="portada" class="portada"> <!-- portada -->
+      <header id="header" class="header contenedor"> <!-- header -->
       <figure id="logo" class="logo"> <!-- logo -->
         <img src="images/invie.png" width="186" height="60" alt="Invie logo"/>
       </figure>
@@ -25,19 +26,19 @@
         </ul>
       </nav>
     </header>
-    <section id="portada" class="portada"> <!-- portada -->
       <div class="contenedor">
-        <h1 class="titulo">Guitarras&nbsp;inviesibles</h1><!-- titulo -->
-        <h3 class="subtitulo">¡S&eacute; la estrella de rock que siempre quisiste ser!</h3><!-- resumen -->
-        <button class="boton">Conoce m&aacute;s</button><!-- boton -->
+        <h1 class="titulo">Guitarras&nbsp;<u>invie</u>sibles</h1><!-- titulo -->
+        <h3 class="subtitulo">¡Sé la estrella de rock que siempre quisiste ser!</h3><!-- resumen -->
+        <button class="boton">Conoce más</button><!-- boton -->
       </div>
     </section>
     <section id="guitarras" class="guitarras contenedor"> <!-- guitarras -->
       <h2>Nuestras guitarras</h2><!-- titulo -->
       <article class="guitarra"> <!-- guitarra 1 -->
-        <img class="img-der" src="images/invie-acustica.png" alt="Guitarra Invie Acustica" width="300"/>
+        <img class="img-der-overflow" src="images/invie-acustica.png"
+            alt="Guitarra Invie Acustica" width="300"/>
         <div class="guitarra-info-a">
-          <h3 class="titulo-guitarra">Invie Ac&uacute;stica</h3>
+          <h3 class="titulo-guitarra">Invie Acústica</h3>
           <ol>
             <li>Estilo vintage</li>
             <li>Madera pura</li>
@@ -46,9 +47,9 @@
         </div>
       </article>
       <article class="guitarra"> <!-- guitarra 2 -->
-        <img class="img-izq" src="images/invie-classic.png" alt="Guitarra Invie Classic" width="300"/>
+        <img class="img-izq" src="" alt="Guitarra Invie Electrica" width="300"/>
         <div class="guitarra-info-b">
-          <h3 class="titulo-guitarra">Invie Cl&aacute;sica</h3>
+          <h3 class="titulo-guitarra">Invie Clásica</h3>
           <ol>
             <li>Estilo vintage</li>
             <li>Liviana</li>
@@ -56,13 +57,14 @@
           </ol>
         </div>
       </article>
-      <article class="guitarra"> <!-- guitarra 1 -->
-        <img class="img-der" src="images/invie-acustica.png" alt="Guitarra Invie Acustica" width="300"/>
+      <article class="guitarra"> <!-- guitarra 3 -->
+        <img class="img-der-underflow" src="images/invie-classic.png"
+            alt="Guitarra Invie Classic" width="300"/>
         <div class="guitarra-info-a">
-          <h3 class="titulo-guitarra">Invie El&eacute;ctrica</h3>
+          <h3 class="titulo-guitarra">Invie Eléctrica</h3>
           <ol>
             <li>Estilo Telecaster</li>
-            <li>Cuerpo s&oacute;lido</li>
+            <li>Cuerpo sólido</li>
             <li>Incluye amplificador invisible de 100W</li>
           </ol>
         </div>
@@ -73,8 +75,8 @@
         <div class="contacto-info">
           <img src="images/invie-white.png" width="186" height="60" alt="Invie logo"/>
           <a href="tel:+573146783410">
-            <strong>Tel&eacute;fono</strong>
-            <span>3146783410</span>
+            <strong>Teléfono</strong>
+            <span>314xxxxxxx</span>
           </a>
           <a href="mailto:sinc5995@hotmail.com">
             <strong>E-mail</strong>
@@ -92,7 +94,7 @@
                 <input type="email" name="email" />
               </label>
               <div class="contacto-asunto">
-                <label>Cotizaci&oacute;n
+                <label>Cotización
                   <input type="checkbox" name="asunto" value="cotizacion" />
                 </label>
                 <label>Comentarios

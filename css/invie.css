@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /*selector universal*/
 * {
 }
@@ -5,7 +7,7 @@
 /*selector de etiqueta*/
 body {
   font-family: 'Allerta', sans-serif;
-  margin: 10px 0 10px 0;
+  margin: 0;
 }
 
 .boton {
@@ -16,9 +18,14 @@ body {
   padding: 7px;
 }
 
+.boton:hover {
+  cursor:pointer;
+}
+
 /*selector de id*/
 #portada {
   background-image: url('../images/background.png');
+  background-size: cover;
   color: white;
   padding: 20px;
   margin: 0;
@@ -38,12 +45,14 @@ body {
 .logo {
   display: inline-block;
   margin-top: 0;
+  margin-left: 20px;
 }
 
 .menu {
   font-size: 24px;
   display: inline-block;
   float: right;
+  margin-right: 10px;
 }
 
 .menu li {
@@ -51,8 +60,18 @@ body {
   margin-left: 15px;
 }
 
+.menu li:before {
+  /*content: '\FFEE'; similar Unicode char*/
+  content: '∘';
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
 .titulo {
-  font-size: 70px;
+  font-size: 67px;
   font-family: 'Montserrat', sans-serif;
   margin: 70px 0 0 15px;
 }
@@ -95,18 +114,23 @@ body {
   padding: 10px;
 }
 
-.img-der {
+.img-der-overflow {
   /*float:right; reemplazado por position*/
-  margin-bottom: 0;
   position: absolute;
   bottom: 0px;
+  right: 0px;
+}
+
+.img-der-underflow {
+  /*float:right; reemplazado por position*/
+  position: absolute;
+  bottom: -50px;
   right: 0px;
 }
 
 .img-izq {
   /*float:left;*/
   position: absolute;
-  bottom: -50px;
   left: 0px;
 }
 
