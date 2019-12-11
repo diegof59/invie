@@ -8,26 +8,26 @@
     <link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat:400,700&display=swap" rel="stylesheet"> 
   </head>
   <body>
-    <section id="portada" class="portada"> <!-- portada -->
-      <header id="header" class="header contenedor"> <!-- header -->
-        <figure id="logo" class="logo"> <!-- logo -->
-          <img src="images/invie.png" width="186" height="60" alt="Invie logo"/>
-        </figure>
-        <nav id="menu" class="menu"> <!-- menu -->
-          <ul>
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="index.html/#guitarras">Guitarras</a>
-            </li>
-            <li>
-              <a href="precios.html">Precios</a>
-            </li>
-          </ul>
-        </nav>
+      <header id="header" class="header background"> <!-- header -->
+        <div class="contenedor">
+          <figure id="logo" class="logo"> <!-- logo -->
+            <img src="images/invie.png" width="186" height="60" alt="Invie logo"/>
+          </figure>
+          <nav id="menu" class="menu"> <!-- menu -->
+            <ul>
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="index.html#guitarras">Guitarras</a>
+              </li>
+              <li>
+                <a href="precios.html">Precios</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </header>
-    </section>
     <section class="tabla">
       <div class="contenedor">
         <table>
@@ -81,17 +81,18 @@
               <label>E-mail
                 <input type="email" name="email" />
               </label>
-              <div class="contacto-asunto">
+              <fieldset class="contacto-asunto">
+                <legend>Asunto de tú mensaje</legend>
                 <label>Cotización
-                  <input type="checkbox" name="asunto" value="cotizacion" />
+                  <input type="radio" name="asunto" value="cotizacion" />
                 </label>
                 <label>Comentarios
-                  <input type="checkbox" checked="checked" name="asunto" value="comentarios" />
+                  <input type="radio" checked="checked" name="asunto" value="comentarios" />
                 </label>
                 <label>Reclamos
-                  <input type="checkbox" name="asunto" value="reclamos"/>
+                  <input type="radio" name="asunto" value="reclamos"/>
                 </label>
-              </div>
+              </fieldset>
             </fieldset>
             <fieldset class="contacto-fieldset">
               <label>Mensaje

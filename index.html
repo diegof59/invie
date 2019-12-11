@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat:400,700&display=swap" rel="stylesheet"> 
   </head>
   <body>
-    <section id="portada" class="portada"> <!-- portada -->
+    <section id="portada" class="portada background"> <!-- portada -->
       <header id="header" class="header contenedor"> <!-- header -->
       <figure id="logo" class="logo"> <!-- logo -->
         <img src="images/invie.png" width="186" height="60" alt="Invie logo"/>
@@ -29,14 +29,14 @@
       <div class="contenedor">
         <h1 class="titulo">Guitarras&nbsp;<u>invie</u>sibles</h1><!-- titulo -->
         <h3 class="subtitulo">¡Sé la estrella de rock que siempre quisiste ser!</h3><!-- resumen -->
-        <button class="boton">Conoce más</button><!-- boton -->
+        <a href="#guitarras" class="boton">Conoce más</a><!-- boton -->
       </div>
     </section>
     <section id="guitarras" class="guitarras contenedor"> <!-- guitarras -->
       <h2>Nuestras guitarras</h2><!-- titulo -->
       <article class="guitarra"> <!-- guitarra 1 -->
         <img class="img-der-overflow" src="images/invie-acustica.png"
-            alt="Guitarra Invie Acustica" width="300"/>
+            alt="Guitarra Invie Acústica" width="300"/>
         <div class="guitarra-info-a">
           <h3 class="titulo-guitarra">Invie Acústica</h3>
           <ol>
@@ -47,7 +47,7 @@
         </div>
       </article>
       <article class="guitarra"> <!-- guitarra 2 -->
-        <img class="img-izq" src="" alt="Guitarra Invie Electrica" width="300"/>
+        <img class="img-izq" src="" alt="Guitarra Invie Clásica" width="300"/>
         <div class="guitarra-info-b">
           <h3 class="titulo-guitarra">Invie Clásica</h3>
           <ol>
@@ -59,7 +59,7 @@
       </article>
       <article class="guitarra"> <!-- guitarra 3 -->
         <img class="img-der-underflow" src="images/invie-classic.png"
-            alt="Guitarra Invie Classic" width="300"/>
+            alt="Guitarra Invie Eléctrica" width="300"/>
         <div class="guitarra-info-a">
           <h3 class="titulo-guitarra">Invie Eléctrica</h3>
           <ol>
@@ -93,17 +93,18 @@
               <label>E-mail
                 <input type="email" name="email" />
               </label>
-              <div class="contacto-asunto">
+              <fieldset class="contacto-asunto">
+                <legend>Asunto de tú mensaje</legend>
                 <label>Cotización
-                  <input type="checkbox" name="asunto" value="cotizacion" />
+                  <input type="radio" name="asunto" value="cotizacion" />
                 </label>
                 <label>Comentarios
-                  <input type="checkbox" checked="checked" name="asunto" value="comentarios" />
+                  <input type="radio" checked="checked" name="asunto" value="comentarios" />
                 </label>
                 <label>Reclamos
-                  <input type="checkbox" name="asunto" value="reclamos"/>
+                  <input type="radio" name="asunto" value="reclamos"/>
                 </label>
-              </div>
+              </fieldset>
             </fieldset>
             <fieldset class="contacto-fieldset">
               <label>Mensaje

@@ -11,11 +11,13 @@ body {
 }
 
 .boton {
-  border-radius: 5px;
+  border-radius: 9px;
   border: none;
   background: #fd324e;
   color: white;
   padding: 7px;
+  font-size: 14px;  
+  background: linear-gradient(to left, #FE344E, #FF7250);
 }
 
 .boton:hover {
@@ -24,16 +26,24 @@ body {
 
 /*selector de id*/
 #portada {
-  background-image: url('../images/background.png');
-  background-size: cover;
+  height: 500px;
   color: white;
-  padding: 20px;
-  margin: 0;
 }
 
-/*selector descendente*/
-.portada button {
+.header {
+  padding-top: 20px;
+  color: white;
+}
+
+.background {
+  background-image: url('../images/background.png');
+  background-size: cover;
+}
+
+/*selector multiclase*/
+.portada .boton {
   margin: 15px 0 70px 15px;
+  text-decoration: none;
 }
 
 /*selectores de clase*/
@@ -55,6 +65,7 @@ body {
   margin-right: 10px;
 }
 
+/* selector descendente */
 .menu li {
   display: inline-block;
   margin-left: 15px;
