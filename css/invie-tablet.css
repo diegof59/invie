@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*@media screen and (max-width: 800px)*/
+
+.titulo {
+  font-size: 40px;
+  margin-top: 30px;
+}
+.subtitulo{
+	font-size: 18px
+}
+
+#portada {
+  height: auto;
+}
+
+.portada .boton {
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.guitarras {
+  text-align: center;
+}
+
+.guitarra-info.a, .guitarra-info.b {
+  margin: 0;
+}
+
+.img-izq, .img-der {
+  float: none;
+  position: static;
+}
+
+.titulo-guitarra {
+  margin: 0;
+}
+
+.guitarras ol {
+  padding: 0; 
+}
+
+.guitarras li {
+  list-style: none;
+}
+
+.guitarra {
+  margin: 10px auto;
+}
