@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* @media screen and (max-width:730px) */
+
+.header {
+  justify-content: center;
+}
+
+.header ul {
+  padding-left: 0;
+}
+
+.menu {
+  margin-right: 0;
+} 
+
+.presentacion-marca {
+  align-items: center;
+}
+
+.titulo, .subtitulo {
+  margin-left: 0;
+}
+
+.presentacion-marca .boton {
+  align-self: center;
+  margin-top: 0;
+  margin-left: 0;
+}

@@ -33,17 +33,14 @@ body {
 .header {
   padding-top: 20px;
   color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .background {
   background-image: url('../images/background.png');
   background-size: cover;
-}
-
-/*selector multiclase*/
-.portada .boton {
-  margin: 15px 0 70px 15px;
-  text-decoration: none;
 }
 
 /*selectores de clase*/
@@ -62,7 +59,6 @@ body {
 .menu {
   font-size: 24px;
   display: inline-block;
-  float: right;
   margin-right: 10px;
 }
 
@@ -80,6 +76,18 @@ body {
 .menu a {
   text-decoration: none;
   color: white;
+}
+
+.presentacion-marca {
+  display: flex;
+  flex-direction: column;
+}
+
+/*selector multiclase*/
+.presentacion-marca .boton {
+  margin: 15px 0 70px 15px;
+  text-decoration: none;
+  align-self: flex-start;
 }
 
 .titulo {
