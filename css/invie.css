@@ -50,7 +50,7 @@ body {
    margin: auto;
 }
 
-.logo {
+.header .logo {
   display: inline-block;
   margin-top: 0;
   margin-left: 20px;
@@ -172,12 +172,18 @@ body {
   justify-content: space-between;
 }
 
-.contacto-info {
-  display: inline-flex;
+.contenedor-contacto-info {
+  display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 }
 
-.contacto-info img {
+.contacto-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer .logo {
   display: block;
   padding: 25px 0 15px 15px;
 }
@@ -220,13 +226,19 @@ body {
   border: none;
 }
 
-.contacto-fieldset input, textarea {
-  margin: 9px 0 9px 0;
+.contacto-fieldset input[type="text"],
+.contacto-fieldset input[type="email"],
+.contacto-fieldset textarea {
+  margin: 0.5em 0 0.5em;
+  display: block;
 }
 
 .contacto-asunto {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 0.5em;
 }
 
 .contacto-asunto input {
@@ -234,6 +246,7 @@ body {
 }
 
 #enviarMensaje {
-  align-self: flex-end;
+  align-self: flex-start;
+  margin-top: 0.5em;
 }
 

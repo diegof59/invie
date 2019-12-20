@@ -28,6 +28,14 @@
   margin-left: 0;
 }
 
+.footer .contenedor {
+  flex-direction: column;
+}
+
+.contacto-form form {
+  flex-wrap: wrap;
+}
+
 @media screen and (max-width: 500px) {
 
 .header {
@@ -66,5 +74,11 @@
 .menu li:first-child {
   border-top: 1px solid white;
 }
+
+.contacto-form form {
+  flex-direction: column;
+}
+
+
 
 }
