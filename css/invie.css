@@ -2,6 +2,7 @@
 
 /*selector universal*/
 * {
+  box-sizing: border-box;
 }
 
 /*selector de etiqueta*/
@@ -175,7 +176,7 @@ body {
 .contenedor-contacto-info {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .contacto-info {
@@ -185,7 +186,7 @@ body {
 
 .footer .logo {
   display: block;
-  padding: 25px 0 15px 15px;
+  margin: 25px 0 15px 15px;
 }
 
 .contacto-info a {
@@ -211,7 +212,6 @@ body {
 
 .contacto-form form {
   display: flex;
-  justify-content: space-between;
 }
 
 .contacto-form h2 {
