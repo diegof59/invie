@@ -11,6 +11,10 @@ body {
   margin: 0;
 }
 
+.burger-button {
+  display: none;
+}
+
 .boton {
   border-radius: 9px;
   border: none;

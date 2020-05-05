@@ -57,6 +57,31 @@
   margin-left: revert; /* why centers the logo?*/
 }
 
+.icon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  stroke-width: 0px;
+  stroke: white;
+  fill: white;
+}
+
+.burger-button {
+  display: inline-flex;
+  border-radius: 50%;
+  background-color: #466577;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: 5vw;
+  left: 5vw;
+  cursor: pointer;
+}
+
+.icon-menu {
+  margin: auto;
+}
+
 .menu {
   align-self: stretch;
 }
