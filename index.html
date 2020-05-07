@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="css/invie-tablet.css" media="screen and (max-width: 768px)"/>
     <link rel="stylesheet" href="css/invie-mobile.css" media="screen and (max-width: 730px)"/>
     <link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat:400,700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="script.js" defer></script>
   </head>
-  <body>
+  <body onload="onLoad()">
     <!-- SVG Defs for icons -->
     <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <defs>
@@ -26,8 +27,8 @@
     <section id="portada" class="portada background"> <!-- portada -->
       <header id="header" class="header contenedor"> <!-- header -->
         <img src="images/invie.png" width="186" height="60" alt="Invie logo"/>
-        <span class="burger-button">
-          <svg class="icon icon-menu"><use xlink:href="#icon-menu"></use></svg>
+        <span class="burger-button" id="burger-button">
+          <svg class="icon" id="burger-button-icon" id=><use xlink:href="#icon-menu"></use></svg>
         </span>
         <nav id="menu" class="menu"> <!-- menu -->
           <ul>
