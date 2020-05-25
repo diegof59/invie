@@ -29,8 +29,7 @@ body {
   cursor:pointer;
 }
 
-/*selector de id*/
-#portada {
+.portada {
   height: 500px;
   color: white;
 }
@@ -53,12 +52,6 @@ body {
    width: 95%;
    max-width: 800px;
    margin: auto;
-}
-
-.header .logo {
-  display: inline-block;
-  margin-top: 0;
-  margin-left: 20px;
 }
 
 .menu {
